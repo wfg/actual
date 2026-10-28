@@ -277,6 +277,7 @@ export type CategoryMonthProps = {
 export type CategoryGroupMonthProps = {
   month: string;
   group: CategoryGroupEntity;
+  onBudgetAction?: CategoryMonthProps['onBudgetAction'];
 };
 
 export type BudgetComponents = {
